@@ -1,0 +1,22 @@
+GameObject TorreBasica;
+GameObject Player;
+// Toda classe Torre é um GameObject
+
+--------------------------------------------
+
+Torre t0;
+
+t0.CriaTorreBasica (GameObject LugarA)
+{
+	Player.Gold = Player.Gold - 10;
+	t0 = (GameObject) Instantiate(TorreBasica, LugarA.transform.position, Quaternion.identity);
+}
+
+t0.AumentaDano (float Dano)
+{
+}
+
+https://www.assetstore.unity3d.com/en/#!/content/4023
+
+
+https://www.facebook.com/photo.php?fbid=862887940493540&set=gm.441862669331429&type=3&theater
